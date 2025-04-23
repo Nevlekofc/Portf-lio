@@ -1,0 +1,56 @@
+
+        
+.service-box {
+  background-color: '';
+  transition: transform 0.3s ease-in-out;
+}
+.service-box:hover {
+  transform: scale(1.1);
+}
+
+.home-content {
+position: relative;
+left: -250px;
+transition: left 0.5s ease-in-out;
+}
+.home-content.kely {
+  left: 0;
+}
+/* animação no perfil*/
+.home-img { 
+  background-color: '';
+  transition: transform 0.3s ease-in-out;
+}
+.home-img:hover {
+  transform: scale(1.1);
+}
+
+/*fim animaçãono perfil*/
+.portifolio-box {
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Move o card para baixo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transições suaves */
+}
+
+.portifolio-box.visible {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Move para a posição original */
+}
+/*fim portifolio-box animação*/
+/*inicio formulario animação*/
+.portifolio-box {
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Move o card para baixo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transições suaves */
+}
+
+.contato-conte.visible {
+    opacity: 1; /* Torna visível */
+    transform: translateY(0); /* Move para a posição original */
+}
+
+.contato-conte {
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Move o card para baixo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transições suaves */
+}
