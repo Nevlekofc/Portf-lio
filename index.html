@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Favicon -->  
+ 
+ <link rel="shortcut icon" href="Img/favicon.ico" title="Favicon"/>
+
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/animacao.css">
   <title>Portfólio real</title>
 </head>
-<body>
-  <nav class="navbar">
-    <div class="logo">Meu <span class="estilo-text">Portfólio</span></div>
+<header>
+    <nav class="navbar">
+    <div class="logo"><img src="Img/logo.wepb" alt="" width="9%" height="9%"> NEVLEK <span class="estilo-text">Portfólio</span></div>
     <div class="menu-toggle" onclick="toggleMenu()" id="menuToggle">☰</div>
     <div class="menu-overlay" id="menuOverlay">
       <div class="right-line" id="rightLine"></div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
-          <li><a href="#servicos">Servicos</a></li>
+          <li><a href="#service">Servicos</a></li>
           <li><a href="#portifoli">Portfólio</a></li>
           <li><a href="#contato">Contato</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#aboutif">About</a></li>
           <li><a href="javascript:void(0)" onclick="toggleMenu()">✖ Fechar</a></li>
         </ul>
     </div>
@@ -26,33 +30,32 @@
     <!-- para pc -->
     <ul class="nav-desktop">
       <li><a href="#home">Home</a></li>
-      <li><a href="#servicos">Servicos</a></li>
+      <li><a href="#servico">Servicos</a></li>
       <li><a href="#portifoli">Portfólio</a></li>
       <li><a href="#contato">Contato</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#aboutif">About</a></li>
     </ul>
   </nav>
-  
+</header>
+<body>
   
   <section class="home" id="home"> 
   <div class="home-img">
        <img src="Img/profile.wepb" alt="perfil...">
     </div>
     <div class="home-content">
-           <h3>Hey, I'm</h3>
+           <h3>Olá, Chamo - me</h3>
      <h1 class="estilo-text">Nevlek XR</h1>
-     <h3 class="estilo-text"><span>Back-end</span> and <span>Front-end </span><span></span>Development<span></span></h3>
+     <h3 class="estilo-text"><i>Densenvolvedor </i><span>Back-end</span> e <span>Front-end</span>.<span></span></h3>
+     <br>
      <p>
-      Debitis officiis nihil totam placeat vitae soluta dolorum minima, incidunt fuga aliquid velit sed veritatis saepe repellendus quia voluptates temporibus natus exercitationem maiores illum eos? Maiores, quae fugit dolor minus sit quisquam rerum, nesciunt voluptates a ab natus. Non voluptate voluptas, aliquid.
+Sou estudante técnico em Informática e um entusiasta apaixonado por tecnologia. Dedico grande parte do meu tempo explorando e aprendendo continuamente sobre o universo tecnológico, sempre acompanhado de boa música.
+<p></p>
+Este é o meu portfólio, onde compartilho alguns dos projetos que venho desenvolvendo. Sinta-se à vontade para navegar e conhecer meu trabalho.
+<p></p>
+Caso queira entrar em contato, no final da página você encontrará minhas redes sociais. Será um prazer tirar dúvidas, trocar ideias ou simplesmente bater um papo.
      </p>
-     <div class="redes-social">
-
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+     
     </div>
   </section>
     <!-- inicio Servicos -->
@@ -61,34 +64,33 @@
    
    <div class="service-container">
    <div class="service-box">
-       <img src="Img/laptop-code-solid.svg" alt="" class="icon-svg">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="icon-svg"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-64 0 0-256L128 96l0 256-64 0L64 96zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
        <h3><span>Desenvolvidor</span> Web</h3>
        
        <p>
-       Crio Web Site Responsivos e com layout a escolha, Me fale como é a sua empresa e o projecto que deseja. Crio design do Site e apresento a você. Apos a aprovação começo a densenvolver o site.
+       Crio sites responsivos e personalizados de acordo com a identidade da sua empresa ou projeto. Compartilhe sua ideia comigo, e eu elaborarei o layout. Após sua aprovação, iniciarei o desenvolvimento completo do seu site com qualidade e atenção aos detalhes.
        </p>
        
 
      </div>
      
     <div class="service-box">
-       <img src="Img/code-solid.svg" alt="" class="icon-svg">
-       
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="icon-svg"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
 <h3><span>Desenvolvidor</span> Mobile</h3>
        
        <p>
-       Crio qualquer tipo de aplicativo para Android ou IOS com layout a escolha, Me fale como é a sua empresa e o projecto que deseja. Crio design do aplicativo e apresento a você. Apos a aprovação começo a densenvolver o aplicativo.
+    Desenvolvo aplicativos para Android e iOS com design totalmente adaptado às suas necessidades. Basta me explicar como é sua empresa ou ideia, e eu criarei o layout inicial. Após a aprovação, dou início ao desenvolvimento do aplicativo.
        </p>
        
        
      </div>
      
      <div class="service-box">
-        <img src="Img/mobile-solid.svg" alt="" class="icon-svg">
-      <h3><span>Desenvolvidor</span> Mobile</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon-svg"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384H576c-8.2-98.5-64.5-181.8-146.9-226.6"/></svg>
+      <h3><span>Desenvolvidor</span> Criativo</h3>
        
        <p>
-         Ratione, dolorum explicabo quia reiciendis excepturi in quas molestiae inventore doloremque fugit iure fugiat voluptatem illum quo earum laboriosam est quidem, vitae architecto, esse! Saepe earum libero vero ea nobis impedit esse maiores nesciunt consequatur tempor.
+Além de soluções técnicas, também ofereço projetos com foco em criatividade, identidade visual e experiência do usuário. Cada detalhe é pensado para destacar seu produto ou serviço de forma moderna, intuitiva e eficiente.
        </p>
        
        
@@ -114,7 +116,10 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+ <div class="main-icon">
+ <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>  
+         </div>
+         
        </div>
      </div>
      
@@ -128,11 +133,14 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+  <div class="main-icon">
+    
+    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>
+         </div>
        </div>
      </div>
      
-               <div class="portifolio-box">
+ <div class="portifolio-box">
          <img src="Img/6.wepb" alt="">
        
        <div class="portifolio-layer">
@@ -142,7 +150,10 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+ <div class="main-icon">
+    
+    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>
+         </div>
        </div>
      </div>
     
@@ -158,7 +169,10 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+ <div class="main-icon">
+    
+    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>
+         </div>
        </div>
      </div>
      
@@ -172,11 +186,14 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+ <div class="main-icon">
+    
+    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>
+         </div>
        </div>
      </div>
      
-              <div class="portifolio-box">
+ <div class="portifolio-box">
          <img src="Img/3.wepb" alt="">
        
        <div class="portifolio-layer">
@@ -186,7 +203,10 @@
          Quo provident nihil culpa voluptatem ratione, placeat aliquam consequatur ipsum tempore unde, officiis beatae dicta quae tenetur, nam pariatur dolor obcaecati cumque.
          </p>
          
-         <a href="#"><i class="bx bx-link-external"></i></a>
+ <div class="main-icon">
+    
+    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"class="layer-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M352 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9L370.7 96 201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L416 141.3l41.4 41.4c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-128c0-17.7-14.3-32-32-32L352 0zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z"/></svg></a>
+         </div>
        </div>
      </div>
      
@@ -198,28 +218,46 @@
         <!-- inicio Contato -->
   <section class="contato" id="contato">
    <h2>CONTACTE <span>ME</span></h2>
-   
-   <form action="" class="contato-conte">
-     <div class="input-box">
-       <input type="text" placeholder="Nome completo">
-       <input type="email" placeholder="E-mail">
-        <input type="text" placeholder="Assunto">
+
+   <form action="https://formsubmit.co/nevlekxr1@gmail.com" class="contato-conte" method="POST">
+     
+ <div class="input-box">
+ <input type="name" placeholder="Nome completo">
+ <input type="email" placeholder="E-mail">
+ <input type="text" placeholder="Assunto">
      </div>
      
-     <textarea cols="30" rows="7" placeholder="Menssagem"></textarea>
+       <textarea cols="30" rows="7" name="menssagem" placeholder="Menssagem"></textarea>
      
      <div class="button-neon">
-  <button><p>Enviar</p></button>
+  <button type="submit"><img src="Img/envia.wepb" alt="" height="80%" width="80%"></button>
      </div>
+</form>
+   
 
-   </form>
+   
  </section>
     <!-- fim Contato -->
     
         <!-- inicio About -->   
-        <footer>
-     <p>Copyright &copy; 2025 by &lt;/NevlekXR1&gt;. All right Reserved</p>
-   </footer>
+ <footer class="aboutif" id="aboutif">
+   
+   <h3>Obrigado(a) por chegar até aqui!<span></span></h3>   
+  <p> Sinta-se à vontade para entrar em contato se quiser discutir um projeto, colaborar ou apenas bater um papo!
+
+Obrigado por visitar meu portfólio!
+</p>
+<h4><span></span></h4>
+<div class="social-media">
+  
+ <a href="https://github.com/Nevlekofc"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+ <a href="https://www.instagram.com/kelvenantonioxr1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+ <a href="https://youtube.com/@nevlekxr1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="social-icon"><!--! © nevlekofc 2025 https://youtube.com/@nevlekxr1.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a>
+ 
+</div>
+
+ <p>Copyright &copy; 2025 by NevlekXR1. Todos os direitos reservados</p>
+ </footer>
     <!-- fim About -->
     
 	<script>
@@ -236,6 +274,7 @@
     element.classList.add('show');
   });
 };
+
 
 	</script>
 	  <script src="js/index.js"></script>
