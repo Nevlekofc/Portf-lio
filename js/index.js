@@ -1,8 +1,6 @@
-   //animação na home
-     window.onload = function() {
-            const element = document.querySelector('.home-content');
-            element.classList.add('kely');
-        };
+
+
+   
   //animação portifolio-box
         document.addEventListener("DOMContentLoaded", function () {
     const cards = document.querySelectorAll('.portifolio-box');
