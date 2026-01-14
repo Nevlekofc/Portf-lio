@@ -320,17 +320,17 @@ transition: 1s;
   gap: 3em;
 }
 .card-contaner-2 {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .card {
   background: #101113;
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-  height: 230px;
+  height: 260px;
   width: 290px;
   border-radius: 9px;
   text-align: center;
 }
-.card:hover {
+.card:focus {
   border: 1px solid #161616;
   transform: scale(1.01);
 }
@@ -625,62 +625,34 @@ form {
   .profile-about {
     margin-right: 22px;
   }
-
-  .card-contaner-2 {
-    margin: 20px;
-  }
 }
 
 @media (min-width: 768px) {
-  .home-content {
-    flex-direction: row;
-  }
-  .project-content {
-    flex-direction: row;
-  }
-  .card-contaner,
-  .card-contaner-2{
-    flex-direction: row;
-  }
-  .about-content {
-    flex-direction: row;
-  }
-  .input-container {
+ .home-content,
+ .project-content,
+ .card-contaner,
+ .card-contaner-2
+ .about-content,
+ .input-container {
     flex-direction: row;
   }
 }
 @media (max-width: 767px) {
-  .home-content {
-    flex-direction: column;
-  }
-  .project-content {
-    flex-direction: column;
-  }
+  .home-content,
+  .project-content,
   .card-contaner,
-  .card-contaner-2{
-    flex-direction: column;
-  }
-  .about-content {
-    flex-direction: column;
-  }
+  .card-contaner-2,
+  .about-content,
   .input-container {
     flex-direction: column;
   }
 }
 @media (max-width: 480px) {
-  .home-content {
-    flex-direction: column;
-  }
-  .project-content {
-    flex-direction: column;
-  }
+  .home-content,
+  .project-content,
   .card-contaner,
-  .card-contaner-2{
-    flex-direction: column;
-  }
-  .about-content {
-    flex-direction: column;
-  }
+  .card-contaner-2,
+  .about-content,
   .input-container {
     flex-direction: column;
   }
